@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EdicionContactos</string>
+
+    <string name="tvNombre">Nombre: </string>
+    <string name="tvFechaNacimiento">Fecha Nacimiento: </string>
+    <string name="tvTelefono">Telefono: </string>
+    <string name="tvEmail">Email: </string>
+    <string name="tvDescripcion">Descripcion: </string>
+    <string name="tvDatoNombre">Michael Chevez Angulo </string>
+    <string name="tvDatoFechaNacimiento">12/24/2020 </string>
+    <string name="tvDatoTelefono">81347109 </string>
+    <string name="tvDatoEmail">elmero98@gmail.com </string>
+    <string name="tvDatoDescripcion">Persona Traquila y muy chevere </string>
+
+    <string name="tvConfirmarDatos">Confirmar Datos</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+</resources>

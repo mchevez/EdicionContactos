@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarContacto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/tvConfirmarDatos"
+        android:textSize="@dimen/tvConfirmarDatos"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvDatoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="@string/tvDatoNombre"
+        android:textSize="@dimen/tvTextos"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvDatoFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="@string/tvDatoFechaNacimiento"
+        android:textSize="@dimen/tvTextos"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView18"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvDatoTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/tvDatoTelefono"
+        android:textSize="@dimen/tvTextos"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView20"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvDatoEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:text="@string/tvDatoEmail"
+        android:textSize="@dimen/tvTextos"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView22"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvDescripcion"
+        android:textSize="@dimen/tvTextos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvFechaNacimiento"
+        android:textSize="@dimen/tvTextos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvTelefono"
+        android:textSize="@dimen/tvTextos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/tvNombre"
+        android:textSize="@dimen/tvTextos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvEmail"
+        android:textSize="@dimen/tvTextos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvDatoDescripcion"
+        android:layout_width="261dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tvDatoDescripcion"
+        android:textSize="@dimen/tvTextos"
+        app:autoSizeTextType="none"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView24"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:onClick="editarDatos"
+        android:text="@string/btnEditarDatos"
+        android:theme="@style/MiBotonRaised"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDatoDescripcion"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
